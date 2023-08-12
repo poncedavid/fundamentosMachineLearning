@@ -14,27 +14,7 @@ sudo apt-get install python3-pip
 sudo pip3 install virtualenv
 ```
 
-# Entorno virtual de python (virtualenv) para windows
-## creando el entorno virtual
-```bash
-python -m venv env
-```
-## activando el entorno virtual
-```bash
-.\env\Scripts\activate
-```
-## instalando las dependencias
-```bash
-pip install -r requirements.txt
-```
-## desactivando el entorno virtual
-```bash
-deactivate
-```
-## creando el archivo requirements.txt
-```bash
-pip freeze > requirements.txt
-```
+
 # Entorno virtual de python (virtualenv) para linux
 ## creando el entorno virtual
 ```bash
@@ -57,3 +37,6 @@ deactivate
 pip freeze > requirements.txt
 ```
 
+#gitingnore
+## creando el archivo .gitignore
+```bash
